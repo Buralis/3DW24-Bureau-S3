@@ -1,0 +1,23 @@
+h1 {
+    font-size: 1.2em;
+    margin-bottom: 0;
+  }
+  nav a {
+    padding: 5px 10px;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+    background-color: #eee;
+    border-radius: 4px;
+    color: black
+  }
+  nav a:visited, a:link {
+    color: black;
+    background-color: #FFE4E3;
+  }
+  nav a:hover {
+    background-color: #CA8282;
+  }
+  nav a.active {
+    color: #CA8282;
+  }
